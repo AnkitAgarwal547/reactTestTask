@@ -1,0 +1,33 @@
+.orderTop a{text-align: center;width: 100%;display: block;margin-bottom: 20px;color: #fff;}
+.orderTop a i{text-align: left;float:left;margin-top: 4px;}
+.accordionList .card {background: #16253B;margin-bottom: 20px;    border-radius: 15px;overflow: hidden;    max-width: 420px;margin: 10px auto 10px;}
+.accordionList .card-header{background: #1A2D47;padding: 0;border-radius: 15px;overflow: hidden;}
+.accordionList .card-header  a {color: rgba(255,255,255,.8);font-size: 13px;font-weight: 400;}
+.accordionList .card-header  a span{ font-size: 11px; color: rgba(255,255,255,.5 );    width: 100%;
+display: inline-block; }
+.accordionList .card-header a{display: flex;position: relative;align-items: center; text-decoration: none;}
+.accordionList .card-header a h6{font-size: 13px; font-weight: 400;}
+
+.card-header i {font-size: 20px;padding: 25px;display: inline-block;color: #57d557;background: #203B5C;border-radius: 15px;    margin-right: 15px;}
+.accordionList .card-body {padding: 15px;}
+.accordionList .card-body ul{ margin: 0px; padding: 0px; }
+.accordionList .card-body ul li {font-size: 11px; list-style: none;color: rgba(255,255,255,.5);margin-bottom: 3px;}
+.accordionList .card-body ul li span{ color: rgba(255,255,255,.8); }
+.details a {color: #fff;text-align: right;font-size: 12px;    display: inline-block;margin: 0; width: 100%;}
+.allDeatils {background: #00132E;padding: 7px;border-radius: 30px;}
+.allDeatils ul {display: flex;align-items: center;margin: 0;padding: 0;}
+.allDeatils ul li {list-style: none;margin-right: 10px;}
+.allDeatils ul li:last-child { margin-right: 0px; }
+.allDeatils ul li a { text-decoration:none;padding: 5px 15px;color: rgba(255,255,255,.8);    border-radius: 15px;font-size: 12px;}
+.allDeatils ul li a { background: #132B49; }
+.allDeatils ul li a.activeDetails  { background: #355A88; }
+a.collapseArrow:after {content: "\f106" ; font-family: "Font Awesome 5 Pro";position: absolute;right: 10px;top:25px;color: #1078C4;font-size: 16px;}
+a.collapseArrow.collapsed:after{content: "\f107";}
+
+
+@media (max-width:767px){
+    .allDeatils ul {flex-flow: wrap;}
+    .allDeatils ul li {margin-bottom: 5px;}
+    
+    }
+    

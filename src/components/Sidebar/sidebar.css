@@ -1,0 +1,13 @@
+.lightBlue{ background: #00132E; }
+.leftMenu{ height: 100vh; margin: 0;  padding: 0px; } 
+.leftMenu {height: 100vh;margin: 0;padding: 15px 0px;display: inline-block;}
+.leftMenu li {list-style: none;width: 100%;display: inline-block;margin-bottom: 15px;}
+.leftMenu li a {padding: 20px 10px;text-align: center;width: 100%;font-size: 12px;display: inline-block;background: #000C1C;border-radius: 15px;    color: rgba(255,255,255,.5);}
+.leftMenu li a:hover { text-decoration: none; background: #1A2D47 }
+.leftMenu li a i {width: 100%;font-size: 18px;}
+.mx-150{ max-width: 150px; }
+
+ @media (max-width:767px){
+    .leftMenu {height: 100%;max-width: 100%;width: 100%;}
+    .mx-150{ max-width: 100%; }
+    }

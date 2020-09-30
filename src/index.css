@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mainSection {background: #000C1C;height: 100vh;padding: 0 15px;}
+.lightBlue{ background: #00132E; }
+.content {max-width: 560px;margin: 0 auto;display: block;padding-top: 50px;}
+
+
+@media (max-width:767px){
+.mainSection {height: 100%;}
+.allDeatils ul {flex-flow: wrap;}
+.allDeatils ul li {margin-bottom: 5px;}
+}
+
